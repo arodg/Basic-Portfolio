@@ -88,6 +88,27 @@ article p {
     line-height: 2;
 }
 
+form {
+    margin: 20px 25px;
+}
+
+/* input stying mostly copied from w3schools.com */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 5px 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 5px; /* Add a top margin */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
 aside {
     float: right;
     margin: 30px 0px;
