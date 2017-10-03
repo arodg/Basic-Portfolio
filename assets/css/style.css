@@ -159,12 +159,10 @@ input[type=submit] {
 
 
 /* main section of PORTFOLIO page, includes gallery images, image headings*/
+
+/* added class gallery images to give article section the right height */
 .galleryimages {
-    float: left;
-    margin: 0px;
-    height: 425px;
-    width: 650px;
-    background-color: #ffffff;
+    height: 500px; 
 }
 
 h3 {
